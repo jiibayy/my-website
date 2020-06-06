@@ -101,27 +101,12 @@ button:active{
         margin: 0 0 0;
     }
     .container-button{
-        margin: 70px 0 0;
-        padding: 0 0 0;
-
-        button{
-            padding: 15px 90px 15px;
-            margin: 0 0 0;
-            font-family: $subtitle;
-            border-radius: 10px;
-            font-size: 20px;
-            border: none;
-            color: #65666E;
-            background-color: #C3C5D4;
-            outline: none;
-            cursor: pointer;
-        }
+        text-align: center;
 
         img{
-            position: absolute;
-            margin: -4px -60px 0;
+
             height: 30px;
-            width: 45px;
+            width: 40px;
         }
 
         ul{
@@ -131,19 +116,22 @@ button:active{
         }
 
         li{
-            margin-top: 40px;
             margin-left: 50px;
-           display: inline-block;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 100px;
+            padding: 20px 20px 20px;
+            background-color: #C3C5D4;;
+            display: inline-block;
         }
 
-        .btn-github{
-            padding: 15px 93px 15px;
+        li:hover{
+            padding: 18px 18px 18px;
+            border: solid #65666E 2px;
         }
 
-        button:hover{
-            margin: 0 0 0;
-            border: #ABADBA 2px solid;
-        }
+
+
      }
     }
 }

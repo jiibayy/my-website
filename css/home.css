@@ -87,26 +87,11 @@ button:active {
   margin: 0 0 0;
 }
 .container-right .container-description .container-button {
-  margin: 70px 0 0;
-  padding: 0 0 0;
-}
-.container-right .container-description .container-button button {
-  padding: 15px 90px 15px;
-  margin: 0 0 0;
-  font-family: "Play", sans-serif;
-  border-radius: 10px;
-  font-size: 20px;
-  border: none;
-  color: #65666E;
-  background-color: #C3C5D4;
-  outline: none;
-  cursor: pointer;
+  text-align: center;
 }
 .container-right .container-description .container-button img {
-  position: absolute;
-  margin: -4px -60px 0;
   height: 30px;
-  width: 45px;
+  width: 40px;
 }
 .container-right .container-description .container-button ul {
   padding: 0 0 0;
@@ -114,16 +99,17 @@ button:active {
   list-style: none;
 }
 .container-right .container-description .container-button li {
-  margin-top: 40px;
   margin-left: 50px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 20px 20px 20px;
+  background-color: #C3C5D4;
   display: inline-block;
 }
-.container-right .container-description .container-button .btn-github {
-  padding: 15px 93px 15px;
-}
-.container-right .container-description .container-button button:hover {
-  margin: 0 0 0;
-  border: #ABADBA 2px solid;
+.container-right .container-description .container-button li:hover {
+  padding: 18px 18px 18px;
+  border: solid #65666E 2px;
 }
 
 /*# sourceMappingURL=home.css.map */
