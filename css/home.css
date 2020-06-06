@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  background-color: #DADDEE;
+}
+
+button:active {
+  border: none !important;
+}
+
+.container-left {
+  position: absolute;
+  margin: 5% 10% 0;
+  padding: 0 0 0;
+}
+.container-left .container_title_subtitle {
+  margin: 0px 70px 0;
+}
+.container-left .container_title_subtitle h2 {
+  margin: 0 55px 0;
+  font-size: 35px;
+  color: #65666E;
+  font-family: "Bebas Neue", cursive;
+}
+.container-left .container_title_subtitle h6 {
+  margin: 0 0 0;
+  font-weight: normal;
+  font-family: "Play", sans-serif;
+  font-size: 25px;
+}
+.container-left .container-section {
+  margin: 70px 0 0;
+}
+.container-left .container-section ul {
+  list-style: none;
+  padding: 0 0 0;
+  width: 100%;
+  margin: 0 0 0;
+}
+.container-left .container-section ul li {
+  display: block;
+  margin: 70px 0 0;
+}
+.container-left .container-section ul li button:hover {
+  position: relative;
+  left: 25px;
+}
+.container-left .container-section ul li button {
+  border-radius: 15px;
+  background-color: #DADDEE;
+  border: none;
+  box-shadow: 10px 5px 35px #A2A4B0, -10px -10px 35px #DADDEE;
+  width: 100%;
+  padding: 25px 150px 25px;
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  color: "Bebas Neue", cursive;
+  outline: none;
+  cursor: pointer;
+}
+.container-left .container-section ul li button .circle {
+  position: absolute;
+  padding: 9px 11px 5px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 25px #DADDEE, -5px -5px 25px #A2A4B0;
+  margin: -10px -100px 0px;
+}
+
+.container-right {
+  position: absolute;
+  margin: 12% 40% 0;
+  padding: 0 0 0;
+  width: 50%;
+}
+.container-right .container-description {
+  padding: 0 0 0;
+  margin: 0 0 0;
+}
+.container-right .container-description p {
+  line-height: 50px;
+  font-size: 25px;
+  color: "Play", sans-serif;
+  font-family: "Play", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 0px 0 0;
+  margin: 0 0 0;
+}
+.container-right .container-description .container-button {
+  margin: 70px 0 0;
+  padding: 0 0 0;
+}
+.container-right .container-description .container-button button {
+  padding: 15px 90px 15px;
+  margin: 0 0 0;
+  font-family: "Play", sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  color: #65666E;
+  background-color: #C3C5D4;
+  outline: none;
+  cursor: pointer;
+}
+.container-right .container-description .container-button img {
+  position: absolute;
+  margin: -4px -60px 0;
+  height: 30px;
+  width: 45px;
+}
+.container-right .container-description .container-button ul {
+  padding: 0 0 0;
+  margin: 0 0 0;
+  list-style: none;
+}
+.container-right .container-description .container-button li {
+  margin-top: 40px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.container-right .container-description .container-button .btn-github {
+  padding: 15px 93px 15px;
+}
+.container-right .container-description .container-button button:hover {
+  margin: 0 0 0;
+  border: #ABADBA 2px solid;
+}
+
+/*# sourceMappingURL=home.css.map */
