@@ -1,0 +1,53 @@
+body, html {
+  background-color: #24141C;
+  @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap");
+}
+body .container_center, html .container_center {
+  padding: 20% 0 0;
+  width: 100%;
+}
+body h1, html h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Play", sans-serif;
+  font-weight: normal;
+  margin: 0 0 0;
+}
+body .container_btn, html .container_btn {
+  padding: 50px 0 0;
+  text-align: center;
+}
+body .container_btn ul, html .container_btn ul {
+  display: block;
+}
+body .container_btn ul li, html .container_btn ul li {
+  padding: 0 50px 0;
+  display: inline;
+}
+body .container_btn ul li button, html .container_btn ul li button {
+  padding: 20px 100px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Play", sans-serif;
+}
+body .container_btn ul li .btn_contact, html .container_btn ul li .btn_contact {
+  background-color: unset;
+  border: #AA2B33 solid 2px;
+  color: #AA2B33;
+}
+body .container_btn ul li .btn_who, html .container_btn ul li .btn_who {
+  background-color: #AA2B33;
+  border: none;
+  color: #FFFFFF;
+}
+body .container_btn ul li .btn_contact:hover, html .container_btn ul li .btn_contact:hover {
+  transition: 0.5s;
+  color: #CC6C74;
+  border: #CC6C74 solid 2px;
+}
+
+/*# sourceMappingURL=layout.css.map */
