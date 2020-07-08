@@ -10,7 +10,7 @@ body .container_center, html .container_center {
 body h1, html h1 {
   color: #FFFFFF;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Play", sans-serif;
   font-weight: normal;
   margin: 0 0 0;
@@ -27,7 +27,7 @@ body .container_btn ul li, html .container_btn ul li {
   display: inline;
 }
 body .container_btn ul li button, html .container_btn ul li button {
-  padding: 20px 100px 20px;
+  padding: 15px 100px 15px;
   border-radius: 15px;
   font-size: 20px;
   cursor: pointer;
