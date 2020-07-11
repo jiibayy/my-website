@@ -2,52 +2,50 @@ body, html {
   background-color: #24141C;
   @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
 }
-body .container_center, html .container_center {
-  padding: 20% 0 0;
-  width: 100%;
+body ul, html ul {
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+body li, html li {
+  margin: 0 0 0;
+}
+body p, html p {
+  font-size: 30px;
+  font-family: "Fira Sans", sans-serif;
 }
 body h1, html h1 {
-  color: #FFFFFF;
-  text-align: center;
+  color: #9A8C94;
   font-size: 40px;
   font-family: "Play", sans-serif;
   font-weight: normal;
   margin: 0 0 0;
 }
-body .container_btn, html .container_btn {
-  padding: 50px 0 0;
-  text-align: center;
-}
-body .container_btn ul, html .container_btn ul {
-  display: block;
-}
-body .container_btn ul li, html .container_btn ul li {
-  padding: 0 50px 0;
-  display: inline;
-}
-body .container_btn ul li button, html .container_btn ul li button {
-  padding: 15px 100px 15px;
-  border-radius: 15px;
-  font-size: 20px;
+body button, html button {
   cursor: pointer;
+  outline: none;
+  color: #ffffff;
   font-weight: bold;
+  font-size: 20px;
   font-family: "Play", sans-serif;
 }
-body .container_btn ul li .btn_contact, html .container_btn ul li .btn_contact {
-  background-color: unset;
-  border: #AA2B33 solid 2px;
-  color: #AA2B33;
+body button:hover, html button:hover {
+  background-color: #CC6C74 !important;
+  transition: 0.3s ease-out all !important;
 }
-body .container_btn ul li .btn_who, html .container_btn ul li .btn_who {
-  background-color: #AA2B33;
-  border: none;
-  color: #FFFFFF;
+body form, html form {
+  font-family: "Fira Sans", sans-serif;
 }
-body .container_btn ul li .btn_contact:hover, html .container_btn ul li .btn_contact:hover {
-  transition: 0.5s;
-  color: #CC6C74;
-  border: #CC6C74 solid 2px;
+body h3, html h3 {
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+  margin: 0 0 0;
+  padding: 0 0 25px;
+}
+body label, html label {
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=layout.css.map */

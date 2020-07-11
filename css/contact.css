@@ -1,0 +1,69 @@
+.container_box {
+  text-align: center;
+  width: 100%;
+  padding: 5% 0 0;
+}
+
+.container_form {
+  padding: 5% 0 0;
+}
+
+form {
+  padding: 3% 0 0;
+}
+
+[type=email], [type=text] {
+  outline: none;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: #AA2B33;
+  width: 15%;
+  padding: 10px 80px 10px;
+  border: solid #AA2B33 1px;
+  background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #24141C inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #AA2B33 !important;
+}
+
+[type=checkbox]:not(:checked),
+[type=checkbox]:checked {
+  border-radius: 10px;
+  content: "";
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[type=checkbox] {
+  border: solid 1px red;
+}
+
+[type=submit] {
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #AA2B33;
+  border: solid #AA2B33 1px;
+  background-color: transparent;
+  padding: 10px 50px 10px;
+}
+
+[type=submit]:hover {
+  transition: 0.5s ease;
+  background-color: #CC6C74;
+}
+
+/*# sourceMappingURL=contact.css.map */

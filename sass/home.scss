@@ -1,0 +1,57 @@
+.container_center{
+    padding: 20% 0 0;
+    width: 100%;
+}
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    font-weight: normal;
+    margin: 0 0 0;
+}
+
+.container_btn{
+    padding: 50px 0 0;
+    text-align: center;
+
+    ul{
+        list-style: none;
+        display: block;
+
+        li{
+            padding: 0 50px 0;
+            display: inline;
+
+
+            button{
+                padding: 15px 100px 15px;
+                border-radius: 15px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            .btn_contact{
+                background-color: unset;
+                border: #AA2B33 solid 2px;
+                color: #AA2B33;
+            }
+
+            .btn_who{
+                background-color: #AA2B33;
+                border: none;
+                color: #FFFFFF;
+            }
+
+            .btn_contact:hover{
+                transition: 0.5s;
+                color: #CC6C74;
+                border: #CC6C74 solid 2px;
+            }
+
+
+        }
+    }
+
+}

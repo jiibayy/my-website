@@ -1,62 +1,62 @@
 body, html{
     background-color: #24141C;
 
+
+
     @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
 
-
-    .container_center{
-        padding: 20% 0 0;
-        width: 100%;
+    ul{
+        margin: 0 0 0;
+        padding:  0 0 0;
+    }
+    
+    li{
+        margin: 0 0 0;
     }
 
+    p{
+        font-size: 30px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+
     h1{
-        color: #FFFFFF;
-        text-align: center;
+        color: #9A8C94;
         font-size: 40px;
         font-family: 'Play', sans-serif;
         font-weight: normal;
         margin: 0 0 0;
     }
+    
+    button{
+        cursor: pointer;
+        outline: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Play', sans-serif;
+    }
 
-    .container_btn{
-        padding: 50px 0 0;
-        text-align: center;
+    button:hover{
+        background-color: #CC6C74 !important;
+        transition: 0.3s ease-out all !important;
+    }
 
-        ul{
-            display: block;
+    form{
+        font-family: 'Fira Sans', sans-serif;
+    }
+    h3{
+        font-family: 'Fira Sans', sans-serif;
+        color: #ffffff;
+        margin: 0 0 0;
+        padding: 0 0 25px;
+    }
 
-            li{
-                padding: 0 50px 0;
-                display: inline;
 
-
-                button{
-                    padding: 15px 100px 15px;
-                    border-radius: 15px;
-                    font-size: 20px;
-                    cursor: pointer;
-                    font-weight: bold;
-                    font-family: 'Play', sans-serif;
-                }
-                .btn_contact{
-                    background-color: unset;
-                    border: #AA2B33 solid 2px;
-                    color: #AA2B33;
-                }
-
-                .btn_who{
-                    background-color: #AA2B33;
-                    border: none;
-                    color: #FFFFFF;
-                }
-
-                .btn_contact:hover{
-                    transition: 0.5s;
-                    color: #CC6C74;
-                    border: #CC6C74 solid 2px;
-                }
-            }
-        }
+    label{
+        font-family: 'Fira Sans', sans-serif;
+        color: #ffffff;
     }
 }

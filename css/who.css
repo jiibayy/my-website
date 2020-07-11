@@ -1,0 +1,30 @@
+.container_center {
+  text-align: center;
+  margin: 10% 0 0;
+}
+.container_center h1 {
+  text-align: center;
+}
+.container_center .container_text {
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  padding: 10% 0 0;
+}
+.container_center .container_text p {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin: 0 0 0;
+}
+.container_center .container_btn {
+  padding: 10% 0 0;
+}
+.container_center .btn_who {
+  padding: 20px 70px 20px;
+  border-radius: 15px;
+  background-color: #AA2B33;
+  border: none;
+}
+
+/*# sourceMappingURL=who.css.map */
